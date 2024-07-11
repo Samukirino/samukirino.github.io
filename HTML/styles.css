@@ -1,0 +1,211 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/* Estilos gerais */
+body {
+    line-height: 1.6;
+    margin: 0px;
+    background-color: #ababab;
+    
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 33px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    gap: 7px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.content {
+    padding: 40px 0;
+}
+
+.image-grid {
+    /*display: grid;*/
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.image-item img {
+    max-width: 358px;
+    height: auto;
+    margin: 10px 30px 0px 1px;
+}
+
+.image-item p {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.image-item2 img {
+    max-width: 444px;
+    height: auto;
+    margin: 10px 30px 0px 1px;
+}
+
+.image-item2 p {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#footer {
+    background-color: #ababab(255, 255, 255);
+    color: #000000;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+}
+
+/* styles.css */
+
+.image-gridi {
+    /*display: grid;*/
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.image-itemi img {
+    max-width: 50px;
+    height: auto;
+    margin: 10px 30px 0px 1px;
+    align-content: left;
+}
+
+.image-itemi p {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.image-itemi {
+    position: relative; /* Para posicionar o título dentro do contêiner */
+    overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse o contêiner */
+    width: 100px;
+}
+
+.image-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 44, 95, 0);
+    color: #fff;
+    padding: 5px;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.5s ease;
+}
+
+.image-item:hover .image-title {
+    transform: translateY(0);
+}
+#formademe{
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+
+}
+
+.image-titlei {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 44, 95, 0);
+    color: #fff;
+    padding: 5px;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.5s ease;
+}
+
+.image-itemi:hover .image-titlei {
+    transform: translateY(0);
+}
+#formademe{
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+}
+.item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    scroll-snap-align: center;
+    width: 200px; /* Ajuste conforme necessário */
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.item p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.message-box {
+    display: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    font-size: 16px;
+}
+#btn{
+    width: 50px;
+    height: 35px;
+    color: #666;
+    align-items: center;
+}

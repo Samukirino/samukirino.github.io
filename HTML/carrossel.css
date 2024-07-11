@@ -1,0 +1,24 @@
+.body{
+    background-color: rgb(184, 184, 184);
+}
+
+.carousel-container {
+    width: 1024px;
+    height: 1536px;
+    overflow: hidden;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%; /* Redimensiona as imagens para a largura total */
+   
+    height: auto;
+}
+#home{
+    border: 6px;
+}
